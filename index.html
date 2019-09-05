@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Speed Game</title>
+  </head>
+  <style media="screen">
+    body {
+      background-color: olive;
+    }
+  </style>
+  <body>
+    <div id="wrapper">
+      <h1>Speed Game</h1>
+      <h3>Your score: <span id="score"> 0</span></h3>
+      <div id="cover"></div>
+      <div id="circleHolder">
+        <div id="button1" class="circle"></div>
+        <div id="button2" class="circle"></div>
+        <div id="button3" class="circle"></div>
+        <div id="button4" class="circle"></div>
+      </div>
+      <div id="buttonHolder">
+        <button type="button" id="buttonStart" onclick="startGame()">Start Game</button>
+        <button type="button" id="buttonStop" onclick="window.location.reload()">Stop Game</button>
+      </div>
+    </div>
+    <div class="" id="notification">
+      <div id="dialogWindow">
+        <div id="buttonCloseHolder">
+          <button id="buttonClose" onclick="window.location.reload()">&#10006;</button>
+        </div>
+        <h4 id="result"></p>
+      </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
